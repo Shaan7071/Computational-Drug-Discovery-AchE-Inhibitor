@@ -1,0 +1,18 @@
+# Ignore all files and directories by default
+*
+
+# Whitelist specific folders and their contents
+!Data/
+!Data/**
+!Figures/
+!Figures/**
+
+# Whitelist specific Jupyter notebooks
+!1_BioactivityDataCollection.ipynb
+!2_ExploratoryDataAnalysis.ipynb
+!3_DescriptorCalculation.ipynb
+!4_ModelBuilding.ipynb
+
+# Whitelist Git files and the README
+!.gitignore
+!README.md
